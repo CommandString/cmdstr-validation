@@ -1,5 +1,5 @@
 {
-  "name": "commandstring-validation",
+  "name": "cmdstr-validation",
   "main": "dist/index.ts",
   "version": "1.0.0",
   "description": "An abstraction for simple validation without limitations",
