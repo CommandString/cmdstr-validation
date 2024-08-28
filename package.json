@@ -1,0 +1,22 @@
+{
+  "name": "commandstring-validation",
+  "main": "dist/index.ts",
+  "version": "0.0.1",
+  "description": "An abstraction for simple validation without limitations",
+  "author": {
+    "name": "Robert Snedeker",
+    "email": "rsnedeker20@gmail.com",
+    "url": "https://robertsnedeker.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.5.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  }
+}
