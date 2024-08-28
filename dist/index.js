@@ -8,11 +8,16 @@ function validate(objectToValidate, config) {
         hasErrors: false
     };
     const pushError = (field, message, bag = null) => {
-        var _a;
-        var _b;
+        var _a, _b;
+        var _c, _d;
         bag !== null && bag !== void 0 ? bag : (bag = errorBag);
-        (_a = (_b = bag.errors)[field]) !== null && _a !== void 0 ? _a : (_b[field] = []);
+        (_a = (_c = bag.errors)[field]) !== null && _a !== void 0 ? _a : (_c[field] = []);
         if (!(bag.errors[field] instanceof Array)) {
+            (_b = (_d = bag.errors[field]).errors) !== null && _b !== void 0 ? _b : (_d.errors = []);
+            if (!(bag.errors[field].errors instanceof Array)) {
+                throw new Error(`Errors field name is reserved when using nested validation with top level validation!`);
+            }
+            bag.errors[field].errors.push(message);
             return;
         }
         bag.errors[field].push(message);
