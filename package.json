@@ -1,7 +1,7 @@
 {
   "name": "commandstring-validation",
   "main": "dist/index.ts",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "An abstraction for simple validation without limitations",
   "author": {
     "name": "Robert Snedeker",
