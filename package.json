@@ -1,7 +1,7 @@
 {
   "name": "cmdstr-validation",
   "main": "dist/index.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An abstraction for simple validation without limitations",
   "author": {
     "name": "Robert Snedeker",
@@ -18,5 +18,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
