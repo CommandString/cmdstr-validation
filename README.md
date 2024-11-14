@@ -1,9 +1,9 @@
-# [commandstring-validation](https://github.com/commandstring/ts-validation)
+# [cmdstr-validation](https://github.com/commandstring/ts-validation)
 A validation library for validating objects
 
 ## Installation
 ```
-npm i commandstring-validation
+npm i cmdstr-validation
 ```
 
 ## Basic Usage
