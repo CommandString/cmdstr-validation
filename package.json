@@ -1,7 +1,7 @@
 {
   "name": "cmdstr-validation",
-  "main": "dist/index.ts",
-  "version": "1.0.1",
+  "main": "dist/index.js",
+  "version": "1.0.2",
   "description": "An abstraction for simple validation without limitations",
   "author": {
     "name": "Robert Snedeker",
